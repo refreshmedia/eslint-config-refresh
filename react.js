@@ -1,6 +1,6 @@
 'use strict'
 
 module.exports = {
-  'extends': ['standard', 'standard-react'],
-  'parser': 'babel-eslint'
+  extends: ['standard-react'],
+  parser: 'babel-eslint'
 }
