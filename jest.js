@@ -1,7 +1,9 @@
-{
-  'extends': ['plugin:jest/recommended'],
-  'plugins': ['jest'],
-  'env': {
+'use strict'
+
+module.exports = {
+  extends: ['plugin:jest/recommended'],
+  plugins: ['jest'],
+  env: {
     'jest/globals': true
   }
 }
