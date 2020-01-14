@@ -1,6 +1,6 @@
 'use strict'
 
 module.exports = {
-  extends: ['standard-react'],
   parser: 'babel-eslint'
+  extends: ['standard', 'plugin:react/recommended', 'standard-react'],
 }
